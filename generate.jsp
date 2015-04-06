@@ -118,7 +118,7 @@
                                             <div id="892060900251006299-form-parent" class="wsite-form-container" style="margin-top:10px;">
                                                 <!--<ul class="formlist" id="892060900251006299-form-list">-->
                                                 <div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-                                                        <s:form action="generatemap" method="POST" enctype="multipart/form-data">
+                                                        <s:form action="generatemap" method="POST" enctype="multipart/form-data" id="gform">
                                                             <s:file id="fileupload" cssClass="wsite-form-input wsite-input" name="uploadedFile" label="Select a File to upload" ></s:file>
                                                             <s:textfield cssClass="wsite-form-input wsite-input" label="Chapter Name"  name="chapter_name"></s:textfield>
                                                             <s:textfield cssClass="wsite-form-input wsite-input" label="Chapter Number" name="chapter_number"></s:textfield>

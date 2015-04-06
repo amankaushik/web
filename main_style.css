@@ -730,14 +730,15 @@ label[for="nav-trigger"] {
 .splash-page p {
 	font-size:20px;
 }
-
 .splash-page .separator {
 	display:none;
  }
 .splash-page #footer-wrap {display:none;}
 
 .splash-page .wsite-background {
-	background:url(bg.jpg) no-repeat center top;
+        //background-color:#404040;
+	//background-image: brown.jpg;
+        background:url(green.jpg) no-repeat center top;
 	background-size:cover;
 }
 
