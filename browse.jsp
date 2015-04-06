@@ -142,7 +142,7 @@
         <div class="page-container">
             <div class="page-sidebar-wrapper">
                 <div class="page-sidebar">
-                    <div id="navhidden" class="nav"><ul class='wsite-menu-default'><li id='pg749547914964992170'><a href="/Concepto" data-membership-required="0" >Home</a></li><li id='pg301631522819600133'><a href="/about.html" data-membership-required="0" >About</a></li><li id='pg674371919812634376'><a href="/contact.html" data-membership-required="0" >Contact</a></li><li id='pg428765279882370059'><a href="/Concepto/generate.jsp" data-membership-required="0" >GenerateForm</a></li><li id="active"><a href="/browsebuttons.html">BrowseButtons</a></li></ul></div>
+                    <div id="navhidden" class="nav"><ul class='wsite-menu-default'><li id='pg749547914964992170'><a href="/Concepto/home.jsp" data-membership-required="0" >Home</a></li><li id='pg301631522819600133'><a href="/concepto/about.html" data-membership-required="0" >About</a></li><li id='pg674371919812634376'><a href="/concepto/contact.html" data-membership-required="0" >Contact</a></li><li id='pg428765279882370059'><a href="/Concepto/generate.jsp" data-membership-required="0" >GenerateForm</a></li><li id="active"><a href="/concepto/browsebuttons.html">BrowseButtons</a></li></ul></div>
                     <div id="nav" class="nav"></div>
                 </div>
             </div><!-- end page-sidebar-wrapper -->

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home</title>
+        <title>Processing</title>
         <meta property='og:site_name' content='' />
         <meta property='og:title' content='My Site' />
         <meta property='og:description' content='' />

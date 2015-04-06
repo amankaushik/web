@@ -30,7 +30,8 @@ span.whiteit{
 }
 </style>
     <div>
-        <a href="home.jsp"><span class="whiteit"> Go Back</span></a>
+        
+        <a href="<s:url action="showarticles"></s:url>"><span class="whiteit"> Go Back</span></a>
     </div>
 <div class="ui-widget">
    <input id="search">
@@ -39,7 +40,7 @@ span.whiteit{
 <script src="d3.v3.min.js"></script>
 <script src="jquery-ui-1.11.4/jquery-2.1.3.min.js"></script>
 <script src="jquery-ui-1.11.4/jquery-ui.js"></script>
-<link href="jquery-ui-1.11.4/jquery-ui.css" rel="Stylesheet"></link>
+<link href="jquery-ui-1.11.4/jquery-ui.css" rel="Stylesheet"/>
 <script type="text/javascript" src="jquery-ui-1.11.4/jquery.contextmenu.js"></script>
 <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.4/jquery.contextmenu.css" media="all">
 <script>
