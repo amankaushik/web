@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="refresh" content="5; url=<s:url />"/>
         <title>Processing</title>
         <meta property='og:site_name' content='' />
         <meta property='og:title' content='My Site' />
@@ -47,6 +48,9 @@
             .blog-header h2 a {}
             #wsite-content h2.wsite-product-title {}
             .wsite-product .wsite-product-price a {}
+            .hcolor{
+                color:white;
+            }
         </style>
         <style>
             .wsite-background {background-image: url('//cdn1.editmysite.com/uploads/4/7/4/5/47451539/background-images/60889793.jpg') !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: cover !important;background-color: transparent !important;background: inherit;}
@@ -108,7 +112,7 @@
                                 <div id="splash-content-inner">
                                     <div id='wsite-content' class='wsite-elements wsite-not-footer'>
                                         <center><div>
-                                                <h3>Your request is getting processed</h3>
+                                                <h3 class="hcolor">Your request is getting processed</h3>
                                                 <img alt="processing" src="processing.gif" align="middle">
 
                                             </div></center>
