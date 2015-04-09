@@ -84,7 +84,7 @@
         <div class="page-container">
             <div class="page-sidebar-wrapper">
                 <div class="page-sidebar">
-                    <div id="navhidden" class="nav"><ul class='wsite-menu-default'><li id="active"><a href="/home.jsp">Home</a></li><li id='pg301631522819600133'><a href="/about.html" data-membership-required="0" >About</a></li><li id='pg674371919812634376'><a href="/contact.html" data-membership-required="0" >Contact</a></li><li id='pg428765279882370059'><a href="/Concepto/generate.jsp" data-membership-required="0" >GenerateForm</a></li><li id='pg346779122740899538'><a href="/Concepto/browse.jsp" data-membership-required="0" >BrowseButtons</a></li></ul></div>
+                    <div id="navhidden" class="nav"><ul class='wsite-menu-default'><li id="active"><a href="/Concepto/home.jsp">Home</a></li><li id='pg301631522819600133'><a href="/Concepto/about.jsp" data-membership-required="0" >About</a></li><li id='pg674371919812634376'><a href="/Concepto/contact.jsp" data-membership-required="0" >Contact</a></li><li id='pg428765279882370059'><a href="/Concepto/generate.jsp" data-membership-required="0" >Generate Form</a></li><li id='pg346779122740899538'><a href="<s:url action="showarticles"/>" data-membership-required="0" >Browse Graph</a></li></ul></div>
                     <div id="nav" class="nav"></div>
                 </div>
             </div><!-- end page-sidebar-wrapper -->

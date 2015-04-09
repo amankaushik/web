@@ -80,7 +80,7 @@
         </script>
     </head>
     <body class='splash-page  wsite-theme-light wsite-page-index'>
-        
+
         <div class="page-container">
             <div class="page-sidebar-wrapper">
                 <div class="page-sidebar">
@@ -107,22 +107,10 @@
                             <div class="splash-content">
                                 <div id="splash-content-inner">
                                     <div id='wsite-content' class='wsite-elements wsite-not-footer'>
-                                        <div style="text-align:center;"><div style="height: 40px; overflow: hidden;"></div>
-                                            <a class="wsite-button wsite-button-large wsite-button-highlight" href="generate.jsp" >
-                                                <span class="wsite-button-inner">Generate</span>
-                                            </a>
-                                            <div style="height: 10px; overflow: hidden;"></div>
-                                        </div>
-                                        <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
-                                            <hr class="styled-hr" style="width:100%;"></hr>
-                                            <div style="height: 20px; overflow: hidden; width: 100%;"></div>                                             
-                                        </div>
-                                         <div style="text-align:center;"><div style="height: 40px; overflow: hidden;"></div>
-                                             <a class="wsite-button wsite-button-large wsite-button-highlight" href="<s:url action="showarticles"/>" >
-                                                <span class="wsite-button-inner">Browse</span>
-                                            </a>
-                                            <div style="height: 10px; overflow: hidden;"></div>
-                                        </div>
+                                        <center><div>
+                                                <h1>About PAGE</h1>
+                                                <!--<h4><a href="home.jsp"><span class="whiteit">Go Back Home</span></a></h4>-->
+                                            </div></center>
                                     </div>
                                 </div>
                             </div>
