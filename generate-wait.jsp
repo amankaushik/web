@@ -49,7 +49,7 @@
             #wsite-content h2.wsite-product-title {}
             .wsite-product .wsite-product-price a {}
             .hcolor{
-                color:white;
+                color:black;
             }
         </style>
         <style>
