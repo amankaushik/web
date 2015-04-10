@@ -1,0 +1,16 @@
+{
+  "graph": [],
+  "links": [ 
+{"source":0, "rel": "Section", "target": 1},
+{"source":1, "rel": "are full of", "target": 2},
+{"source":2, "rel": "are full of", "target": 3}
+],
+ "nodes": [ 
+  {"id": "Book", "type": "circle"},
+{"id": "Microorganisms", "type": "circle"},
+{"id": "soil", "type": "circle"},
+{"id": "tiny organisms", "type": "circle"}
+],
+  "directed": false,
+  "multigraph": false
+}

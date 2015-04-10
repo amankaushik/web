@@ -40,14 +40,9 @@
         document.getElementById("idd").setAttribute("value", change);
     });
     </script>
-    <div>
-        
-    <s:form class="browse" action="showconceptmap">
-        <s:submit value="Browse"></s:submit>
-    </s:form>
-</div>
     <br/>
 <div class="ui-widget">
+    <a href="/Concepto/home.jsp">Home</a>
     <input id="search">
     <button type="button" onclick="searchNode()">Search</button>
 </div>

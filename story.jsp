@@ -54,8 +54,8 @@
     <script language="javascript" type="text/javascript">
 
         $(document).ready(function () {
-            var change = <s:property value="idd"></s:property>;
-            //alert(change);
+            var change = <s:property value="idd"></s:property>
+            alert(change);
             document.getElementById("idd").setAttribute("value", change);
         });
         </script>
@@ -63,15 +63,12 @@
             <div id="tabs">
                 <ul>
                     <li><a href="#tabs-1">Concept Map</a></li>
-                    <li><a href="#tabs-3">Browse</a></li>
+                    <li><a href="#tabs-3">Home</a></li>
                     <li><a href="#tabs-2">Chapter Graph</a></li>
                 </ul>
                 <div id="tabs-3">
                     <div class="browse">
-                        <s:form class="browse" action="showconceptmap">
-                    <s:hidden name="idd" label="idd" id="idd" value=""></s:hidden>
-                    <s:submit value="Browse"></s:submit>
-                </s:form>
+                        <a href="/Concepto/home.jsp">Home</a>
                     </div>
                 </div>
                 <div id="tabs-1">
