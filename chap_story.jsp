@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<%@ taglib prefix="s" uri="/struts-tags" %> 
 <meta charset="utf-8">
 <style>
 .node {
@@ -28,6 +29,14 @@ span.whiteit{
                 color:white;
 }
 </style>
+<script language="javascript" type="text/javascript">
+                                        
+                                        $( document ).ready(function () {
+                                            var change = <s:property value="idd"></s:property>
+                                            alert(change);
+                                            document.getElementById("idd").setAttribute("value", change);
+                                        });
+</script>
     <div>
         <a href="home.jsp"><span class="whiteit"> Go Back</span></a>
     </div>
@@ -36,7 +45,10 @@ span.whiteit{
     <button type="button" onclick="searchNode()">Search</button>
 </div>
 <div>
-    <a href="<s:"
+<s:form action="showchaptermap">
+        <s:hidden label="idd" id="idd" value=""></s:hidden>
+        <s:submit label="Generate Chapter Graph"></s:submit>
+    </s:form>
 </div>
 <script src="d3.v3.min.js"></script>
 <script src="jquery-ui-1.11.4/jquery-2.1.3.min.js"></script>
