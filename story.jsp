@@ -54,7 +54,7 @@
     <script language="javascript" type="text/javascript">
 
         $(document).ready(function () {
-            var change = <s:property value="#session.uid"></s:property>
+            var change = <s:property value="%{uid}"></s:property>
             alert(change);
             document.getElementById("idd").setAttribute("value", change);
         });
