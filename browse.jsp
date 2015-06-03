@@ -25,6 +25,7 @@
                 document.getElementById("nav").innerHTML = document.getElementById("navhidden").innerHTML;
             });
         </script>
+        
         <link rel="stylesheet" href="jquery-ui.css">
         <script src="jquery-ui.js"></script>
         <script src="external/jquery/jquery.js"></script>
@@ -173,8 +174,9 @@
                                 </div>
                         </div>-->
                         <div class="splash-inner">
+                        
                             <div class="splash-content">
-
+                                   
                                 <div id="splash-content-inner">
 
 

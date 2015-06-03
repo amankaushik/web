@@ -52,7 +52,7 @@
     <script language="javascript" type="text/javascript">
         $(document).ready(function () {
             var change = <s:property value="idd"></s:property>
-            alert(change);
+            //alert(change);
             document.getElementById("idd").setAttribute("value", change);
         });
         </script>

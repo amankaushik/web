@@ -125,6 +125,7 @@
                                                             <s:textfield cssClass="wsite-form-input wsite-input" label="Section Name" name="section_name"></s:textfield>
                                                             <s:textfield cssClass="wsite-form-input wsite-input" label="Section Number" name="section_number"></s:textfield>
                                                                 <div style="text-align:left; margin-top:20px; margin-bottom:10px;">
+                                                               
                                                                 <s:submit value="Generate" class='wsite-button wsite-button-inner' /> 
                                                             </div>
                                                         </s:form>
