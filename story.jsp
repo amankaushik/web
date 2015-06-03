@@ -52,7 +52,6 @@
         }
     </style>
     <script language="javascript" type="text/javascript">
-
         $(document).ready(function () {
             var change = <s:property value="%{uid}"></s:property>
             //alert(change);

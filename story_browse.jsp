@@ -49,8 +49,17 @@
             float: left;
         }
     </style>
+    <script lang="javascript" type="text/javascript">
+        window.onload = function () {
+            if (!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload();
+            }
+        }
+    </script>
     <script language="javascript" type="text/javascript">
         $(document).ready(function () {
+
             var change = <s:property value="idd"></s:property>
             //alert(change);
             document.getElementById("idd").setAttribute("value", change);
