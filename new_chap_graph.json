@@ -2,14 +2,20 @@
   "graph": [],
   "links": [ 
 {"source":0, "rel": "Section", "target": 1},
-{"source":1, "rel": "are full of", "target": 2},
-{"source":2, "rel": "are full of", "target": 3}
+{"source":1, "rel": "need", "target": 2},
+{"source":2, "rel": "need", "target": 3},
+{"source":0, "rel": "Section", "target": 4},
+{"source":4, "rel": ".Soil supplies mineral nutrients to", "target": 5},
+{"source":5, "rel": ".Soil supplies mineral nutrients to", "target": 6}
 ],
  "nodes": [ 
   {"id": "Book", "type": "circle"},
-{"id": "Microorganisms", "type": "circle"},
-{"id": "soil", "type": "circle"},
-{"id": "tiny organisms", "type": "circle"}
+{"id": "Irrigation", "type": "circle"},
+{"id": "All living beings", "type": "circle"},
+{"id": "water to live", "type": "circle"},
+{"id": "Adding Manure", "type": "circle"},
+{"id": "manure and fertilisers", "type": "circle"},
+{"id": "crop", "type": "circle"}
 ],
   "directed": false,
   "multigraph": false

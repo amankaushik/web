@@ -107,10 +107,16 @@
                             <div class="splash-content">
                                 <div id="splash-content-inner">
                                     <div id='wsite-content' class='wsite-elements wsite-not-footer'>
-                                        <center><div>
-                                                <h1>About PAGE</h1>
+                                        <div>
+                                                <h1>Major Project</h1>
+                                                <br/>
+                                                <h4>Developed By</h4>
+                                                <h4><ul>
+                                                    <li>Aman Kaushik</li>
+                                                    <li>Ujjval Dua</li>
+                                                </ul></h4>
                                                 <!--<h4><a href="home.jsp"><span class="whiteit">Go Back Home</span></a></h4>-->
-                                            </div></center>
+                                            </div>
                                     </div>
                                 </div>
                             </div>

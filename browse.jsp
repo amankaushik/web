@@ -14,7 +14,8 @@
         <meta property='og:title' content='BrowseButtons' />
         <meta property='og:description' content='ConCEPt-o' />
         <meta property='og:url' content='http://concept-o.weebly.com/browsebuttons.html' />
-
+        <META HTTP-EQUIV="Pragma" CONTENT="no-cache"/>
+        <META HTTP-EQUIV="Expires" CONTENT="-1"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0,minimal-ui">
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
