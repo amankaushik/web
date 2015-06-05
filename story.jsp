@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
+    <!--<META HTTP-EQUIV="Pragma" CONTENT="no-cache"/>
+        <META HTTP-EQUIV="Expires" CONTENT="-1"/>-->
     <script src="d3.v3.min.js"></script>
     <script src="jquery-ui-1.11.4/jquery-2.1.3.min.js"></script>
     <script src="jquery-ui-1.11.4/jquery-ui.js"></script>
@@ -54,7 +56,7 @@
     <script language="javascript" type="text/javascript">
         $(document).ready(function () {
             var change = <s:property value="%{uid}"></s:property>
-            //alert(change);
+            alert(change);
             document.getElementById("idd").setAttribute("value", change);
         });
         </script>

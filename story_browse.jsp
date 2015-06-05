@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
+    <!--<META HTTP-EQUIV="Pragma" CONTENT="no-cache"/>
+        <META HTTP-EQUIV="Expires" CONTENT="-1"/>-->
     <script src="d3.v3.min.js"></script>
     <script src="jquery-ui-1.11.4/jquery-2.1.3.min.js"></script>
     <script src="jquery-ui-1.11.4/jquery-ui.js"></script>
@@ -82,7 +84,18 @@
                         <input id="search">
                         <button type="button" onclick="searchNode()">Search</button>
                     </div>
-
+                    
+                        <table style="width:100%"> 
+                            <tr>
+                                <td>
+                                    Chapter Name: <s:property value="cname"></s:property>
+                                </td>
+                                <td>
+                                    Section Name: <s:property value="sname"></s:property>
+                                </td>
+                            </tr>
+                        </table>
+                    
                     <script>
                         var graph; // a global
                         d3.json("new_graph.json", function (json) {
